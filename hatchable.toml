@@ -1,0 +1,9 @@
+name = "roya"
+
+[[secret]]
+key = "SESSION_SECRET"
+description = "Long random string used to sign sign-in tokens"
+
+[ai]
+required = true
+description = "Writes the plain-language reduction plan summary. Optional: the app falls back to rule-based text."
